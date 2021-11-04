@@ -1,7 +1,4 @@
-from keras.preprocessing.image import ImageDataGenerator
-from flask import Flask,jsonify,request,make_response
 from flask import Flask, request, jsonify, render_template
-from flask_ngrok import run_with_ngrok
 # Flask utils
 from werkzeug.utils import secure_filename
 import tensorflow_hub as hub
@@ -9,7 +6,6 @@ from pydub import AudioSegment
 import soundfile as sf
 # Define a flask app
 app = Flask(__name__)
-run_with_ngrok(app)
 clf_model=pickle.load(open('models/Yam_three_class.pkl','rb'))
 
 from scipy import signal
@@ -17,7 +13,6 @@ from sklearn.decomposition import PCA
 import scipy.signal
 import numpy as np
 import librosa
-#from noisereduce.plotting import plot_reduction_steps
 from tqdm.autonotebook import tqdm
 import warnings
 import copy
