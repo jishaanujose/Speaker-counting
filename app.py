@@ -1,6 +1,7 @@
 from flask import Flask, request, jsonify, render_template
 # Flask utils
 from werkzeug.utils import secure_filename
+import tensorflow as tf
 import tensorflow_hub as hub
 from pydub import AudioSegment
 import soundfile as sf
