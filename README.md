@@ -17,6 +17,11 @@ It takes audio waveform as input and makes independent predictions by employing 
 
 # Tools used
 The model is programmed using python language and uses frameworks such as numpy, scikit learn, and Flask. The project is demployed in Python3.6 in GoogleColab.
+#
+
+![py](https://user-images.githubusercontent.com/91037105/140272724-9d93e98c-bb90-4d1c-83bf-f35565870575.jpeg)![sci](https://user-images.githubusercontent.com/91037105/140272733-8011f134-628a-462f-9c9f-cd78d23161f2.png)
+![num](https://user-images.githubusercontent.com/91037105/140272744-4b06e8ae-95a3-4244-9735-1980d4e7444d.png)![co](https://user-images.githubusercontent.com/91037105/140272756-9120aebb-4bff-4f13-b9c1-c3756b066e58.png)
+![fl](https://user-images.githubusercontent.com/91037105/140272709-b45272a8-ce89-4903-8ca7-390c76ab4dab.png)
 
 # Web app front
 ![speaker_front](https://user-images.githubusercontent.com/91037105/140272373-6a02c457-6f76-4e90-9ca8-05bb1cd65d33.png)
